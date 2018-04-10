@@ -1,0 +1,38 @@
+/* Add here all your css styles (customizations) */
+@import url('https://fonts.googleapis.com/css?family=Prompt:300,400,600&subset=thai');
+
+.f-thai-prom-300{
+    font-family: 'Prompt', sans-serif !important;
+    font-weight: 300 !important;
+}
+.f-thai-prom-400{
+    font-family: 'Prompt', sans-serif !important;
+    font-weight: 400 !important;
+}
+.f-thai-prom-500{
+    font-family: 'Prompt', sans-serif !important;
+    font-weight: 600 !important;
+}
+
+
+.bg-video{
+    background-image: url(../../img/bg/bgvideo.jpg);
+}
+
+.bg-flora{
+    background-image: url(../../img/bg/flora_bg_v2.jpg);
+    
+}
+.bg-flora-mobile{
+    background-image: url(../../img/bg/flora_bg_mobile.jpg);
+    
+}
+
+.bg-emotion{
+    background-image: url(../../img/bg/flora_bg.jpg);
+    
+}
+.bg-emotion-mobile{
+    background-image: url(../../img/bg/motion_bg_mobile.jpg);
+    
+}

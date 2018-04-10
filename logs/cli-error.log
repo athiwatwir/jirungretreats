@@ -1,0 +1,47 @@
+2017-11-13 09:14:25 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jirungretreats.home' doesn't exist in C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'home', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('home', Array)
+#2 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('home')
+#3 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(297): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(151): Bake\Shell\Task\TemplateTask->_loadController()
+#6 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\cakephp\src\Console\Shell.php(507): Bake\Shell\Task\TemplateTask->main('home')
+#7 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\cakephp\src\Console\Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#8 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\htdocs\Dropbox\jirungretreats\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2017-11-13 09:14:44 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jirungretreats.home' doesn't exist in C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'home', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('home', Array)
+#2 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\cakephp\src\ORM\Table.php(532): Cake\Database\Schema\CachedCollection->describe('home')
+#3 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\cakephp\src\ORM\Table.php(653): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(297): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\bake\src\Shell\Task\TemplateTask.php(151): Bake\Shell\Task\TemplateTask->_loadController()
+#6 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\cakephp\src\Console\Shell.php(507): Bake\Shell\Task\TemplateTask->main('Home')
+#7 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\cakephp\src\Console\Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#8 C:\xampp\htdocs\Dropbox\jirungretreats\vendor\cakephp\cakephp\src\Console\CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#9 C:\xampp\htdocs\Dropbox\jirungretreats\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2017-12-31 07:35:07 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jirungretreats.booking' doesn't exist in /Applications/XAMPP/xamppfiles/htdocs/Dropbox/jirungretreats/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 131
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Dropbox/jirungretreats/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'booking', Array, Object(Cake\Database\Schema\TableSchema))
+#1 /Applications/XAMPP/xamppfiles/htdocs/Dropbox/jirungretreats/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(63): Cake\Database\Schema\Collection->describe('booking', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/Dropbox/jirungretreats/vendor/cakephp/cakephp/src/ORM/Table.php(532): Cake\Database\Schema\CachedCollection->describe('booking')
+#3 /Applications/XAMPP/xamppfiles/htdocs/Dropbox/jirungretreats/vendor/cakephp/cakephp/src/ORM/Table.php(653): Cake\ORM\Table->getSchema()
+#4 /Applications/XAMPP/xamppfiles/htdocs/Dropbox/jirungretreats/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 /Applications/XAMPP/xamppfiles/htdocs/Dropbox/jirungretreats/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 /Applications/XAMPP/xamppfiles/htdocs/Dropbox/jirungretreats/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'booking', 'Booking')
+#7 /Applications/XAMPP/xamppfiles/htdocs/Dropbox/jirungretreats/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Booking')
+#8 /Applications/XAMPP/xamppfiles/htdocs/Dropbox/jirungretreats/vendor/cakephp/cakephp/src/Console/Shell.php(507): Bake\Shell\Task\ModelTask->main('booking')
+#9 /Applications/XAMPP/xamppfiles/htdocs/Dropbox/jirungretreats/vendor/cakephp/cakephp/src/Console/Shell.php(500): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/Dropbox/jirungretreats/vendor/cakephp/cakephp/src/Console/CommandRunner.php(141): Cake\Console\Shell->runCommand(Array, true)
+#11 /Applications/XAMPP/xamppfiles/htdocs/Dropbox/jirungretreats/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+
